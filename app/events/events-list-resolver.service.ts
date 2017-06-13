@@ -8,7 +8,6 @@ export class EventsListResolver implements Resolve<any> {
 
     }
     resolve() {
-        console.log(this.eventService.getEvents());
         //return this.eventService.getEvents().map(events => events)
     }
 }
